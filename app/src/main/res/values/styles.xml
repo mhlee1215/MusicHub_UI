@@ -33,21 +33,6 @@
 
   </style>
 
-  <declare-styleable name="SympliTextView">
-    <attr name="fontPath" format="string"/>
-
-    <!-- Inner shadow settings. -->
-    <attr name="innerShadowColor" format="color"/>
-    <attr name="innerShadowDx" format="dimension"/>
-    <attr name="innerShadowDy" format="dimension"/>
-    <attr name="innerShadowRadius" format="dimension"/>
-
-    <!-- Outer shadow settings. -->
-    <attr name="outerShadowColor" format="color"/>
-    <attr name="outerShadowDx" format="dimension"/>
-    <attr name="outerShadowDy" format="dimension"/>
-    <attr name="outerShadowRadius" format="dimension"/>
-  </declare-styleable>
 
   <style name="text_view_8FAE750659B74A5A9923F4721DA38941_style" parent="android:Widget.TextView">
     <item name="fontPath">fonts/${FONT_FILE}</item>
