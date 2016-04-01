@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/dark_jungle_green"
+    >
+
+    <View
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/music_icon">
+    </View>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/textTitle"
+            style="@style/text_view_9E06A645204D407CA45C9B8D8C6D6403_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hip Hop Yo List"
+            />
+
+
+        <TextView
+            android:id="@+id/textSigner"
+            style="@style/text_view_88D57E35BF1F4F6DBFBC75D48EF49FFE_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23 songs 69:34"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
