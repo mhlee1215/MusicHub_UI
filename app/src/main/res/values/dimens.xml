@@ -3,6 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <dimen name="text_view_5390BC46DAB9400B81B896DB1CF901E2_size">13sp</dimen>
-    <dimen name="text_view_8FAE750659B74A5A9923F4721DA38941_size">13sp</dimen>
+    <dimen name="text_view_5390BC46DAB9400B81B896DB1CF901E2_size">16sp</dimen>
+    <dimen name="text_view_8FAE750659B74A5A9923F4721DA38941_size">16sp</dimen>
+
 </resources>
