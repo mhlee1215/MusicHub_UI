@@ -5,5 +5,6 @@
 
     <dimen name="text_view_5390BC46DAB9400B81B896DB1CF901E2_size">16sp</dimen>
     <dimen name="text_view_8FAE750659B74A5A9923F4721DA38941_size">16sp</dimen>
-
+    <dimen name="text_view_23500030EF284BE983E1BC8BA16FFD2F_size">16sp</dimen>
+    <dimen name="text_view_21A6C45EF4E24F85A6AA02E858428866_size">13sp</dimen>
 </resources>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#232532"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            >
+
+            <View android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle_1"
+                />
+
+            <View android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle_2"/>
+
+
+
+            <View android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle_3"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                >
+
+                <View android:layout_width="6dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/rectangle_1"
+
+                    />
+
+                <View
+                    android:layout_marginLeft="1.5dp"
+                    android:layout_width="6dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/rectangle_1"
+
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="55dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/music_icon">
+                </View>
+
+                <LinearLayout
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    >
+
+                    <TextView
+                        style="@style/text_view_23500030EF284BE983E1BC8BA16FFD2F_style"
+                        android:id="@+id/text_view_23500030EF284BE983E1BC8BA16FFD2F"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A SKY FULL OF STARS"
+                        />
+
+                    <TextView
+                        style="@style/text_view_21A6C45EF4E24F85A6AA02E858428866_style"
+                        android:id="@+id/text_view_21A6C45EF4E24F85A6AA02E858428866"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GHOST STORIES, COLDPLAY"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="17dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle_1"
+                />
+            <View
+                android:layout_marginLeft="-11dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/triangle_left"
+                />
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+                <Button
+                    android:layout_width="122dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/button_1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    >
+                </Button>
+
+                <TextView
+                    style="@style/text_view_5390BC46DAB9400B81B896DB1CF901E2_style"
+                    android:id="@+id/text_view_5390BC46DAB9400B81B896DB1CF901E2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="INVITE"
+                    />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="-11dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/triangle_right"
+                />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="17dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle_1"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

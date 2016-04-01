@@ -89,13 +89,19 @@
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-
                 >
 
                 <View
+                    android:layout_marginRight="10dp"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:background="@drawable/circle_5"
+                    />
 
+                <View
+                    android:layout_marginRight="10dp"
                     android:layout_width="6dp"
                     android:layout_height="6dp"
 
@@ -104,7 +110,7 @@
                     />
 
                 <View
-                    android:paddingLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_width="6dp"
                     android:layout_height="6dp"
 
@@ -113,7 +119,7 @@
                     />
 
                 <View
-                    android:paddingLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_width="6dp"
                     android:layout_height="6dp"
 
@@ -122,16 +128,7 @@
                     />
 
                 <View
-                    android:paddingLeft="10dp"
-                    android:layout_width="6dp"
-                    android:layout_height="6dp"
 
-
-                    android:background="@drawable/circle_5"
-                    />
-
-                <View
-                    android:paddingLeft="10dp"
                     android:layout_width="6dp"
                     android:layout_height="6dp"
 
